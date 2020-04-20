@@ -46,10 +46,10 @@ To run the Backend service:
 
 .. code-block:: bash
 
-   python -m limecore_example eco
+   python -m example.backend
 
 To run the CLI tool:
 
 .. code-block:: bash
 
-   python -m limecore_example cli --help
+   python -m example.cli --help
