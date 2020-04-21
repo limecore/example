@@ -4,6 +4,8 @@ limecore-core
 limecore-core-cli
 limecore-core-configuration
 limecore-core-di>=0.2.1
+limecore-database-api
+limecore-database-postgresql
 limecore-logging>=0.2.0
 limecore-messaging-api>=0.2.0
 limecore-messaging-rabbitmq

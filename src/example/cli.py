@@ -13,6 +13,9 @@ app_factory = AppFactory().add(commands)
 arg_parser = app_factory.create_argument_parser(ArgumentParser())
 args = arg_parser.parse_args()
 
-LimecoreApplication(Path("."), args).using(ConfigurationModule("example")).using(
-    LoggingModule()
-).using(RabbitMQModule()).using(app_factory).run(CLIApp)
+LimecoreApplication(Path("."), args)\
+    .using(ConfigurationModule("example"))\
+    .using(LoggingModule())\
+    .using(RabbitMQModule())\
+    .using(app_factory)\
+    .run(CLIApp)

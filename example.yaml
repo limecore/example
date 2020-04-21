@@ -1,4 +1,7 @@
 limecore:
+  database:
+    postgresql:
+      database: example
   logging:
     console: true
     level: debug

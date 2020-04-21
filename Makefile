@@ -10,7 +10,7 @@ deps: force
 flake8: force
 	flake8 src/
 
-lint: black flake8
+lint: flake8
 
 mypy: force
 	mypy src/
